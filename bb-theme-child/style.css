@@ -7,5 +7,174 @@ Author: The Beaver Builder Team
 Author URI: http://www.fastlinemedia.com
 template: bb-theme
 */
+/*Default Preset Theme*/
 
-/* Add your custom styles here... */ 
+body {
+  color: inherit;
+  font-family: "Libre Baskerville", serif;
+
+  font-weight: 400;
+  line-height: 1.45;
+  font-style: normal;
+  word-wrap: break-word;
+}
+.fl-rich-text p {
+  color:inherit!important;
+}
+.fl-rich-text p a, .fl-rich-text li a {
+  color:inherit!important;
+  font-weight: 600!important;
+  text-decoration: underline;
+}
+.fl-rich-text p a:hover, .fl-rich-text li a:hover {
+  color:#662e2d!important;
+  font-weight: 600!important;
+  text-decoration: underline;
+}
+.padding-forty {
+  padding: 0 40px 0 40px;
+}
+.padding-twenty {
+  padding: 0 20px 0 20px;
+}
+.page-title {
+  border-bottom: 1px solid;
+  padding-bottom: 10px;
+}
+.fl-preset-default {
+  .fl-page-nav-wrap {
+    border-color: #757575;
+    background-color: #eeeeef;
+    color: #444444;
+    background: none;
+    border: none;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  @media (min-width: 1100px) {
+    .fl-fixed-width .fl-page {
+      width: 1100px;
+      max-width:90%
+    }
+
+    .container {
+      width: 1100px;
+      max-width:90%
+    }
+
+    .fl-full-width .container {
+      padding-left: 0;
+      padding-right: 0;
+      width:1100px
+    }
+  }
+  .fl-full-width .container {
+
+  }
+  .fl-page-header-container {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  .fl-page-header *, .fl-page-header h1, .fl-page-header h2, .fl-page-header h3, .fl-page-header h4, .fl-page-header h5, .fl-page-header h6 {
+    color: #444444;
+  }
+  .fl-page-nav-right .fl-page-nav-wrap .navbar-nav li>a:hover, .fl-page-nav-right .fl-page-nav-wrap .navbar-nav li>a:focus {
+    color: #b4061e;
+  }
+  .fl-page-nav-right .fl-page-nav-wrap .navbar-nav li.current-menu-ancestor>a, .fl-page-nav-right .fl-page-nav-wrap .navbar-nav li.current-menu-parent>a, .fl-page-nav-right .fl-page-nav-wrap .navbar-nav li.current-menu-item>a {
+    color: #b4061e;
+  }
+  .fl-page-nav-right .fl-page-nav-wrap a:hover, .fl-page-nav-right .fl-page-nav-wrap a:focus, .fl-page-nav-right .fl-page-nav-wrap a:hover *, .fl-page-nav-right .fl-page-nav-wrap a:focus *, .fl-page-nav-right .fl-page-nav-wrap a.fas:hover, .fl-page-nav-right .fl-page-nav-wrap a.fab:hover, .fl-page-nav-right .fl-page-nav-wrap a.fas:focus, .fl-page-nav-right .fl-page-nav-wrap a.fab:focus {
+    color: #b4061e;
+  }
+  .fl-page-nav-right .fl-page-nav-wrap .navbar-nav li>a {
+    color: #444444;
+  }
+  .fl-logo-text:hover, .fl-logo-text:focus {
+    color: #b4061e!important;
+  }
+  .fl-logo-text {
+    font-weight: 400;
+    font-size: 30px;
+    color: #444444!important;
+  }
+  .fl-page-content {
+    min-height: 65vh;
+  }
+  .fl-page-footer-widgets {
+    background-color: #eeeeef;
+    color: #444444;
+    border:none;
+  }
+  .fl-page-footer-widgets *, .fl-page-footer-widgets h1, .fl-page-footer-widgets h2, .fl-page-footer-widgets h3, .fl-page-footer-widgets h4, .fl-page-footer-widgets h5, .fl-page-footer-widgets h6 {
+    color: #444444;
+  }
+  .fl-page-footer {
+    font-size: 1em;
+    border-top:none;
+    background-color: #444444;
+    color: #ffffff;
+  }
+  .fl-page-footer *, .fl-page-footer h1, .fl-page-footer h2, .fl-page-footer h3, .fl-page-footer h4, .fl-page-footer h5, .fl-page-footer h6 {
+    color: #ffffff;
+  }
+  .fl-page-nav-right {
+    text-align: right;
+
+  }
+  .fl-page-header {
+    background-color: #eeeeef;
+    border-bottom: none;
+    color: #444444;
+  }
+  .fl-post-title {
+    padding-bottom: 25px;
+    border-bottom: 2px solid #eeeeef;
+    line-height: 1em;
+  }
+  .fl-page-footer-widgets-container {
+    padding-top: 10px;
+  }
+  .fl-content {
+    margin: 30px 0;
+  }
+  .fl-page-nav ul.sub-menu {
+    background-clip: padding-box;
+    background-color: #fff;
+    border-top: 3px solid #b4061e;
+    font-size: 14px;
+    float: none;
+    left: -99999px;
+    list-style: none;
+    padding: 10px 0;
+    position: absolute;
+    top: 100%;
+    width: 240px;
+    z-index: 1000;
+    -moz-box-shadow: 0 1px 20px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 0 1px 20px rgba(0,0,0,0.15);
+    box-shadow: 0 1px 20px rgba(0,0,0,0.15);
+  }
+  .fl-page-nav-search form {
+    background-color: #fff;
+    border-top: 3px solid #b4061e;
+    display: none;
+    padding: 20px;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    width: 400px;
+    z-index: 1000;
+    -moz-box-shadow: 0 1px 20px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 0 1px 20px rgba(0,0,0,0.15);
+    box-shadow: 0 1px 20px rgba(0,0,0,0.15);
+  }
+}
+.fl-preset-stripe .fl-page-nav-wrap {
+  border-bottom: 1px solid #e6e6e6;
+  border-top: 1px solid #e6e6e6;
+  padding: 0;
+  border-color: #4c81b0;
+  background-color: #333;
+  color: #ffffff;
+}
